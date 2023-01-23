@@ -1,0 +1,2 @@
+2023-01-21T11:20:38+00:00 CRITICAL Out of memory (allocated 41943040) (tried to allocate 65536 bytes) in G:\xampp\htdocs\prettyclay\wp-content\plugins\elementor\core\base\app.php on line 31
+

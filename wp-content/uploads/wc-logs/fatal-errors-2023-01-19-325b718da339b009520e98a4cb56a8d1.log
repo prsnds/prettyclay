@@ -1,0 +1,51 @@
+2023-01-19T11:33:51+00:00 CRITICAL Uncaught Error: Attempt to assign property "current" on null in G:\xampp\htdocs\prettyclay\wp-includes\nav-menu-template.php:400
+Stack trace:
+#0 G:\xampp\htdocs\prettyclay\wp-includes\nav-menu-template.php(196): _wp_menu_item_classes_by_context(Array)
+#1 G:\xampp\htdocs\prettyclay\wp-includes\widgets\class-wp-nav-menu-widget.php(109): wp_nav_menu(Object(stdClass))
+#2 G:\xampp\htdocs\prettyclay\wp-includes\class-wp-widget.php(394): WP_Nav_Menu_Widget->widget(Array, Array)
+#3 G:\xampp\htdocs\prettyclay\wp-includes\widgets.php(835): WP_Widget->display_callback(Array, Array)
+#4 G:\xampp\htdocs\prettyclay\wp-content\themes\best-shop\footer.php(32): dynamic_sidebar('advanced-footer...')
+#5 G:\xampp\htdocs\prettyclay\wp-includes\template.php(783): require_once('G:\\xampp\\htdocs...')
+#6 G:\xampp\htdocs\prettyclay\wp-includes\template.php(718): load_template('G:\\xampp\\htdocs...', true, Array)
+#7 G:\xampp\htdocs\prettyclay\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 G:\xampp\htdocs\prettyclay\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(30): get_footer()
+#9 G:\xampp\htdocs\prettyclay\wp-includes\template-loader.php(106): include('G:\\xampp\\htdocs...')
+#10 G:\xampp\htdocs\prettyclay\wp-blog-header.php(19): require_once('G:\\xampp\\htdocs...')
+#11 G:\xampp\htdocs\prettyclay\index.php(17): require('G:\\xampp\\htdocs...')
+#12 {main}
+  thrown in G:\xampp\htdocs\prettyclay\wp-includes\nav-menu-template.php on line 400
+
+2023-01-19T11:34:35+00:00 CRITICAL Uncaught Error: Attempt to assign property "current" on null in G:\xampp\htdocs\prettyclay\wp-includes\nav-menu-template.php:400
+Stack trace:
+#0 G:\xampp\htdocs\prettyclay\wp-includes\nav-menu-template.php(196): _wp_menu_item_classes_by_context(Array)
+#1 G:\xampp\htdocs\prettyclay\wp-includes\widgets\class-wp-nav-menu-widget.php(109): wp_nav_menu(Object(stdClass))
+#2 G:\xampp\htdocs\prettyclay\wp-includes\class-wp-widget.php(394): WP_Nav_Menu_Widget->widget(Array, Array)
+#3 G:\xampp\htdocs\prettyclay\wp-includes\widgets.php(835): WP_Widget->display_callback(Array, Array)
+#4 G:\xampp\htdocs\prettyclay\wp-content\themes\best-shop\footer.php(32): dynamic_sidebar('advanced-footer...')
+#5 G:\xampp\htdocs\prettyclay\wp-includes\template.php(783): require_once('G:\\xampp\\htdocs...')
+#6 G:\xampp\htdocs\prettyclay\wp-includes\template.php(718): load_template('G:\\xampp\\htdocs...', true, Array)
+#7 G:\xampp\htdocs\prettyclay\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 G:\xampp\htdocs\prettyclay\wp-content\themes\best-shop\woocommerce.php(40): get_footer()
+#9 G:\xampp\htdocs\prettyclay\wp-includes\template-loader.php(106): include('G:\\xampp\\htdocs...')
+#10 G:\xampp\htdocs\prettyclay\wp-blog-header.php(19): require_once('G:\\xampp\\htdocs...')
+#11 G:\xampp\htdocs\prettyclay\index.php(17): require('G:\\xampp\\htdocs...')
+#12 {main}
+  thrown in G:\xampp\htdocs\prettyclay\wp-includes\nav-menu-template.php on line 400
+
+2023-01-19T11:35:41+00:00 CRITICAL Uncaught Error: Attempt to assign property "current" on null in G:\xampp\htdocs\prettyclay\wp-includes\nav-menu-template.php:400
+Stack trace:
+#0 G:\xampp\htdocs\prettyclay\wp-includes\nav-menu-template.php(196): _wp_menu_item_classes_by_context(Array)
+#1 G:\xampp\htdocs\prettyclay\wp-includes\widgets\class-wp-nav-menu-widget.php(109): wp_nav_menu(Object(stdClass))
+#2 G:\xampp\htdocs\prettyclay\wp-includes\class-wp-widget.php(394): WP_Nav_Menu_Widget->widget(Array, Array)
+#3 G:\xampp\htdocs\prettyclay\wp-includes\widgets.php(835): WP_Widget->display_callback(Array, Array)
+#4 G:\xampp\htdocs\prettyclay\wp-content\themes\best-shop\footer.php(32): dynamic_sidebar('advanced-footer...')
+#5 G:\xampp\htdocs\prettyclay\wp-includes\template.php(783): require_once('G:\\xampp\\htdocs...')
+#6 G:\xampp\htdocs\prettyclay\wp-includes\template.php(718): load_template('G:\\xampp\\htdocs...', true, Array)
+#7 G:\xampp\htdocs\prettyclay\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 G:\xampp\htdocs\prettyclay\wp-content\themes\best-shop\woocommerce.php(40): get_footer()
+#9 G:\xampp\htdocs\prettyclay\wp-includes\template-loader.php(106): include('G:\\xampp\\htdocs...')
+#10 G:\xampp\htdocs\prettyclay\wp-blog-header.php(19): require_once('G:\\xampp\\htdocs...')
+#11 G:\xampp\htdocs\prettyclay\index.php(17): require('G:\\xampp\\htdocs...')
+#12 {main}
+  thrown in G:\xampp\htdocs\prettyclay\wp-includes\nav-menu-template.php on line 400
+
