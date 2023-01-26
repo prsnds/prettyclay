@@ -6722,7 +6722,7 @@ ul.site-header-cart {
 .woocommerce ul.products li.product .product_type_grouped,
 .woocommerce ul.products li.product .product_type_external,
 .woocommerce ul.products li.product .product_type_variable { 
-    background-color: var(--gbl-primary-color);
+    background-color: #010101;
     color: white;
     font-size: 15px;
     text-align: center;
@@ -7075,7 +7075,7 @@ product-summary-wrap .product_meta span a {
 .summary .yith-wcwl-add-button a,
 .tabbed_product_widget .product-tab-list .tabmenu  {
     font-weight: 600;
-    background-color: var(--gbl-primary-color);
+    background-color:aqua;
     font-size: 1em;
     border-radius: 3px;
     color: #fff !important;
@@ -7317,7 +7317,7 @@ button:focus,
  * Scrool and sticky meny
  */
 .backtotop {
-    background-color: var(--gbl-primary-color);
+    background-color: darkgrey;
     z-index: 300;
     width: 40px;
     height: 40px;
