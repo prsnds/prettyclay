@@ -27,7 +27,10 @@ get_header();
                           endif;
                           ?>
                       </div>
-                      <?php best_shop_nav(); ?>
+                      <?php 
+                        best_shop_nav(); 
+                        get_template_part( 'template-parts/pagination' );                       
+                      ?>
                   </main><!-- #main -->
                   <?php get_sidebar(); ?>
               </div>
