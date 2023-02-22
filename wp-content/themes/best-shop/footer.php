@@ -66,9 +66,9 @@
             
             <div class="container footer-info" style="<?php if(!$social_links){ echo 'text-align:center'; } ?>">
                 <?php 
-                    best_shop_footer_site_info();
-                   
-                   best_shop_social_links(true);
+                    //best_shop_footer_site_info();
+                   echo "this theme developed by prosonjeet das";
+                   //best_shop_social_links(true);
                 ?> 
             </div>
         </div>
